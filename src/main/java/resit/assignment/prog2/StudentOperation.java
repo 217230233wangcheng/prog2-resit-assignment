@@ -18,14 +18,14 @@ public class StudentOperation {
 
         // Gather input from the user
         System.out.print("Student ID: ");
-        int studentID = scanner.nextInt();
+       String studentID = scanner.nextLine();
         scanner.nextLine(); // Consume newline left-over
         System.out.print("Student Name: ");
         String studentName = scanner.nextLine();
         System.out.print("Age: ");
         int age = scanner.nextInt();
         System.out.print("Gender (M/F): ");
-        char gender = scanner.next().charAt(0);
+        String gender = scanner.nextLine();
         System.out.print("Year of Admission: ");
         int yearOfAdmission = scanner.nextInt();
         System.out.print("Year of Graduation: ");

@@ -1,14 +1,14 @@
 package resit.assignment.prog2;
 
 public class Student {
-    private int id;
+    private String id;
     private String name;
     private int age;
-    private char gender;
+    private String gender;
     private int admissionYear;
     private int graduationYear;
 
-    public Student(int studentID, String name, int age, char gender2, int admissionYear, int graduationYear) {
+    public Student(String studentID, String name, int age, String gender2, int admissionYear, int graduationYear) {
         this.id = studentID;
         this.name = name;
         this.age = age;
@@ -17,7 +17,7 @@ public class Student {
         this.graduationYear = graduationYear;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
@@ -29,7 +29,7 @@ public class Student {
         return age;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
